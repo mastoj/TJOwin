@@ -1,0 +1,12 @@
+﻿{
+    "webroot": "wwwroot",
+    "exclude": "wwwroot/**/*.*",
+    "dependencies": {
+        "Microsoft.AspNet.Server.IIS": "1.0.0-alpha4",
+        "TJOwin.vNext.HealthCheck": ""
+    },
+    "frameworks": {
+        "aspnet50": { },
+        "aspnetcore50": { }
+    }
+}
