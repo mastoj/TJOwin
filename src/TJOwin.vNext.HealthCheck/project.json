@@ -1,7 +1,7 @@
 ﻿{
     "dependencies": {
         "Newtonsoft.Json": "6.0.5",
-        "Microsoft.AspNet.Http": ""
+        "Microsoft.AspNet.Http": "1.0.0-alpha4"
     },
 
     "frameworks" : {

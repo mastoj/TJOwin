@@ -11,7 +11,7 @@ namespace TJOwin.vNext.Sample
         {
             //TJOwin.HealthCheck.AppBuilderExtensions.UseHealthCheck(null);
             var config = new HealthCheckConfiguration();
-            app.Use(next => new HealthCheckMiddleware(next, config).Invoke);
+            app.UseHealthCheck(config);
             app.Use(helloworldMiddleware);
         }
 
